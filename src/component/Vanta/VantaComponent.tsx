@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import { useEffect } from "react";
 import GLOBE from "vanta/dist/vanta.globe.min";
 
 const VantaComponent = () => {
