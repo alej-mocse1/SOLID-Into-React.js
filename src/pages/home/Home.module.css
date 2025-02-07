@@ -1,0 +1,24 @@
+.divCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.divCenter h1 {
+  color: rgb(153, 125, 140); 
+  font-weight: 800;
+  font-size: 8vw;
+}
+
+.LinkStyles{
+  text-decoration: none;
+  color: #C11C84;
+
+  font-weight: 800;
+}
+
+.LinkStyles:hover{
+  transition: .5s;
+  /* color:rgb(113, 90, 102); */
+  color:  rgb(255, 255, 255); ;
+}

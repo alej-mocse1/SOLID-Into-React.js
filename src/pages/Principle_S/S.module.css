@@ -1,0 +1,44 @@
+.divFather {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    height: auto;
+    min-width: 90%;
+    padding: 0px;
+}
+
+.divFather p {
+    text-align: left;
+}
+
+.h1Style{
+    color:"white";
+    width: 99vw;
+    max-width: 99vw;
+    height: 65vh;
+    font-size: 5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    right: 40px;
+    top: -50px;
+    color: rgb(207, 207, 207);
+    background-color:#2b215a ;
+    font-weight: 800;
+}
+
+.h2Zize{
+    font-size: 2.2em;
+    font-weight: 700;
+    text-decoration: inherit;
+    text-align: center;
+}
+
+.h3Zize{
+    font-size: 1.7em;
+    font-weight: 700;
+    text-decoration: inherit;
+}
