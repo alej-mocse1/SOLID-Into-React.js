@@ -8,19 +8,22 @@ import "react-toastify/dist/ReactToastify.css";
 
 const HighlightComponent = ({textPlane = ''}) => { 
 
-    const mostrarAlerta = () => {
+    const mostrarAlerta = async () => {
 
-         toast("Copiado al portapapeles!", {
-            position: "top-right",
-            closeButton: ({ closeToast }) => (
-                <button onClick={closeToast} style={{ position: "relative", top:"-15px",left:"80px", fontSize: "12px", color: "white", background: "transparent"}}>
-                  ❌
-                </button>
-              ),
-          });  
-
-          
-          
+        try {
+            await navigator.clipboard.writeText(textPlane); 
+            toast("Copiado al portapapeles!", {
+                position: "top-right",
+                closeButton: ({ closeToast }) => (
+                    <button onClick={closeToast} style={{ position: "relative", top:"-15px",left:"80px", fontSize: "12px", color: "white", background: "transparent"}}>
+                    ❌
+                    </button>
+                ),
+            });  
+        } catch (err) {
+            console.error("Error al copiar: ", err);
+            toast.error("Error al copiar al portapapeles");
+        }          
       };
 
     // const {showToast} = useToast();
