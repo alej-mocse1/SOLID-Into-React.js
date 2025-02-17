@@ -28,7 +28,7 @@ const L = () => {
         <>
           <h1 className={styles.h1Style}>PRINCIPIO DE SUSTITUCIÓN DE LISKOV</h1>
 
-          <h3 className={styles.h3Zize}>El principio de Sustitución de Liskov es uno de los cinco principios de SOLID, que significa:</h3>
+          <h3 className={styles.h3Zize}>El principio de Sustitución de Liskov es uno de los cinco principios de SOLID, que significa que:</h3>
 
           <p>Para construir sistemas de software con partes intercambiables, esas partes se deben adherir a un contrato que permita que esas partes puedan ser reemplazadas por otras.</p>
  
@@ -62,7 +62,6 @@ const L = () => {
 
              Si un componente hijo rompe la lógica esperada (como ignorar onClick en un botón), entonces estamos violando el principio LSP y necesitamos corregirlo para que el código sea más flexible y mantenible.
           </p>
-
          
          <AdditionalResourcesComponent/>
 

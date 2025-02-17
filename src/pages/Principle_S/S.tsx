@@ -77,7 +77,7 @@ const S = () => {
   return (
     <>
       <h1 className={styles.h1Style}>PRINCIPIO DE RESPONSABILIDAD ÚNICA</h1>
-      <h3 className={styles.h3Zize}>El Principio de Responsabilidad Única es uno de los cinco principios de SOLID, que significa:</h3>
+      <h3 className={styles.h3Zize}>El Principio de Responsabilidad Única es uno de los cinco principios de SOLID, que significa que:</h3>
       <div className={styles.divFather}>	
         <p>
           Este principio establece que una clase debe tener una única razón
