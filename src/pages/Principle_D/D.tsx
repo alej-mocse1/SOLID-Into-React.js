@@ -60,6 +60,8 @@ const D = () => {
         <>
           <h1 className={styles.h1Style}> PRINCIPIO DE INVERSIÓN DE DEPENDENCIAS </h1>
 
+          <div style={{minHeight:"80vh"}}></div>
+          
           <h3 className={styles.h3Zize}>Principio de Inversión de Dependencias es uno de los cinco principios de SOLID, que significa que:</h3>
 
           {/* <b>El Principio de Inversión de Dependencias (Dependency Inversion Principle - DIP) establece que:</b> */}
