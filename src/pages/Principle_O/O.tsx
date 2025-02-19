@@ -45,6 +45,8 @@ const O = () => {
         <>
          <h1 className={styles.h1Style}>PRINCIPIO DE ABIERTO/CERRADO (OPEN/CLOSED PRINCIPLE, OCP)</h1>
 
+         <div style={{minHeight:"80vh"}}></div>
+         
          <h3 className={styles.h3Zize}>Este principio establece que Las entidades de software (clases, módulos, funciones, etc.) deben estar abiertas para extensión, pero cerradas para su modificación.</h3>
         
          <p>

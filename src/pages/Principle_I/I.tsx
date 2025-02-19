@@ -64,6 +64,8 @@ const I = () => {
         <>
           <h1 className={styles.h1Style}>PRINCIPIO DE SEGREGACIÓN DE INTERFACES</h1>
 
+          <div style={{minHeight:"80vh"}}></div>
+          
           <h3 className={styles.h3Zize}>Principio de Segregación de Interfaceses es uno de los cinco principios de SOLID, que significa que:</h3>
 
           <p>Un sistema no debe depender en cosas que no necesita.</p>

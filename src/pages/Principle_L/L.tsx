@@ -25,8 +25,10 @@ const L = () => {
  }`;
 
     return(
-        <>
+        <> 
           <h1 className={styles.h1Style}>PRINCIPIO DE SUSTITUCIÓN DE LISKOV</h1>
+
+          <div style={{minHeight:"80vh"}}></div>
 
           <h3 className={styles.h3Zize}>El principio de Sustitución de Liskov es uno de los cinco principios de SOLID, que significa que:</h3>
 
@@ -40,7 +42,7 @@ const L = () => {
           <p>
             El Principio de Sustitución de Liskov (LSP) se aplica cuando trabajamos con componentes reutilizables y herencia de props.
 
-              El principio establece que un componente hijo debe poder sustituir a su componente padre sin alterar el comportamiento esperado de la aplicación.   
+            El principio establece que un componente hijo debe poder sustituir a su componente padre sin alterar el comportamiento esperado de la aplicación.   
           </p>
 
           <p>Imagina que tienes un componente BotonBase que es reutilizable:</p>
@@ -58,9 +60,9 @@ const L = () => {
           <HighlightComponent textPlane={example3}/>
 
           <p>
-             En React, LSP se respeta cuando los componentes derivados mantienen el mismo contrato de props y comportamiento esperado que sus componentes base.
+            En React, LSP se respeta cuando los componentes derivados mantienen el mismo contrato de props y comportamiento esperado que sus componentes base.
 
-             Si un componente hijo rompe la lógica esperada (como ignorar onClick en un botón), entonces estamos violando el principio LSP y necesitamos corregirlo para que el código sea más flexible y mantenible.
+            Si un componente hijo rompe la lógica esperada (como ignorar onClick en un botón), entonces estamos violando el principio LSP y necesitamos corregirlo para que el código sea más flexible y mantenible.
           </p>
          
          <AdditionalResourcesComponent/>
